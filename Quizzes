@@ -1,0 +1,13 @@
+Categorical variables representation
+   * A finite number of values called categories
+   * Numerical or non-numerical variables
+   
+Ordinal variables representation
+   * integers or string variables
+   * categorical variables with a meaningful order
+
+One Hot Encoding:
+   * will create one additional column for each possible category
+   * will transform string variable onto numerical representation
+   
+   
