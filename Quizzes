@@ -11,3 +11,13 @@ One Hot Encoding:
    * will transform string variable onto numerical representation
    
    
+Underfitting:
+   * Model is too constained and thus limited by expressivity
+   * Model makes prediction errors even on training samples
+   
+Overfitting:
+   * Model is too complex and thus flexible
+   * Model focuses on too much on noisy details of the training set
+   
+   
+   
