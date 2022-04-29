@@ -14,10 +14,29 @@ One Hot Encoding:
 Underfitting:
    * Model is too constained and thus limited by expressivity
    * Model makes prediction errors even on training samples
+   * train error is high but test error is low
    
 Overfitting:
    * Model is too complex and thus flexible
    * Model focuses on too much on noisy details of the training set
+   * train error is low but test error is high
+   
+Assuming that we have a dataset with little noise, a model is underfitting when:
+* both the train and test errors are high
+
+For a fixed training set, by sequentially adding parameters to give more flexibility to the model, we are more likely to observe:
+* a wider difference between train and test errors 
+* a decrease in the train error
+
+For a fixed choice of model parameters, if we increase the number of labeled observations in the training set, are we more likely to observe:
+* a reduction in the difference between train and test errors
+* an increased or steady train error
+
+Polynomial models with a high degree parameter:
+* get lower training error than lower degree polynomial models 
+* are more likely to overfit than lower degree polynomial models 
+
+
    
    
    
