@@ -37,6 +37,16 @@ Polynomial models with a high degree parameter:
 * are more likely to overfit than lower degree polynomial models 
 
 
+Fitting a high variance model:
+* causes an overfitted model
+* increases the sensitivity of the learned prediction function to a random resampling of the training set observations
+
+
+Fitting a model with a high bias:
+* causes an underfitted model
+* causes the learned prediction function to make systematic errors
+
+
    
    
    
