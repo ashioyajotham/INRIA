@@ -21,6 +21,10 @@ Overfitting:
    * Model focuses on too much on noisy details of the training set
    * train error is low but test error is high
    
+* Overfitting is caused by the limited size of the training set, the noise in the data, and the high flexibility of common machine learning models.
+* Underfitting happens when the learnt prediction functions suffer from systematic errors. This can be caused by a choice of model family and parameters, 
+  which leads to a lack of flexibility to capture the repeatable structure of the true data generating process.
+   
 Assuming that we have a dataset with little noise, a model is underfitting when:
 * both the train and test errors are high
 
