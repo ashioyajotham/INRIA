@@ -1,0 +1,16 @@
+Do linear models overfit?
+  * Linear models are simpler than other hence they tend to overfit less
+  * They even often underfit when:
+     i) n_features is small eg less than 10
+    ii) the problem is not linearly separable
+    
+However they can also overfit
+   i) n_samples << n_features
+  ii) Many uninformative features
+  
+You can introduce regualization to reduce overfitting
+
+
+
+***********Regularization in Logistic Regression**************************
+C=1 by default
